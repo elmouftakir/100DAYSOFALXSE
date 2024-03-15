@@ -18,11 +18,15 @@ sudo apt update
 **Install MongoDB:** 
 Once the package index is updated, you can install MongoDB using the package manager. In Ubuntu, MongoDB is available in the default repositories, so you can install it with:
 
-sudo apt install mongodb
+   ```bash
+    sudo apt install mongodb
+
 **Verify Installation:**
 After installation, you can verify MongoDB is running by checking its status:
 
-sudo systemctl status mongodb
+     ```bash
+    sudo systemctl status mongodb
+
 If MongoDB is running, you should see an output indicating its status as active.
 
 **Access MongoDB:**
