@@ -18,20 +18,20 @@ sudo apt update
 2. **Install MongoDB:** 
 
    ```bash
-    sudo apt install mongodb
+   sudo apt install mongodb
 
 sudo apt install mongodb
 3. **Verify Installation:**
 
-    ```bash
-    sudo systemctl status mongodb
+   ```bash
+   sudo systemctl status mongodb
 
 
 sudo systemctl status mongodb
 4. **Access MongoDB:**
 
-    ```bash
-    mongo
+   ```bash
+   mongo
 
 
 mongo
